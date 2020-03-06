@@ -1,8 +1,4 @@
-/*
-    Store data about the product, providing it for other modules
-*/
-
-const products = [
+const productsArray = [
     {
         id: 1,
         name: "The best",
@@ -26,6 +22,6 @@ const products = [
     }
 ]
 
-export const useProducts = () => {
-    return products.slice()
+export const copyOfProductsArray = () => {
+    return productsArray.slice()
 }
