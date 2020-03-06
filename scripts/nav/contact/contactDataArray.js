@@ -1,4 +1,4 @@
-const contactInfo = [
+const contactInfoArray = [
     {
         id: 1,
         info: "javaprovider@java.com",
@@ -16,6 +16,6 @@ const contactInfo = [
     }
 ]
 
-export const useContactInfo = () => {
-    return contactInfo.slice()
+export const copyOfContactInfoArray = () => {
+    return contactInfoArray.slice()
 }

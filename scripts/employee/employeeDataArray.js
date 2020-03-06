@@ -1,8 +1,4 @@
-/*
-    Storing employee data, providing it for other modules
-*/
-
-const employees = [
+const employeesArray = [
     {
         id: 1,
         firstName: "Madi",
@@ -48,6 +44,6 @@ const employees = [
 ]
 
 // Function that returns a copy of the array of employees
-export const useEmployee = () => {
-    return employees.slice()
+export const copyOfEmployeesArray = () => {
+    return employeesArray.slice()
 }
